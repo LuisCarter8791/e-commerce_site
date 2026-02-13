@@ -273,3 +273,8 @@ button:active {
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+.books__latest {
+    display: flex;
+    flex-wrap: wrap;
+}
