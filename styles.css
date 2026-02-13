@@ -146,6 +146,13 @@ button:active {
     margin: 0 auto;
 }
 
+.row__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* HIGHLIGHTS */
 
 #highlights {
@@ -277,4 +284,10 @@ button:active {
 .books__latest {
     display: flex;
     flex-wrap: wrap;
+}
+
+/* EXPLORE */
+
+#explore {
+    background-color: rgba(115, 66, 214, 0.1);
 }
